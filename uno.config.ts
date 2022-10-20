@@ -18,6 +18,7 @@ import transformerVariantGroup from "@unocss/transformer-variant-group"; // http
 // https://github.com/unocss/unocss#configurations
 export default defineConfig({
   // https://github.com/unocss/unocss#extend-theme
+  // same with tailwindcss / windicss
   theme: {},
 
   // https://github.com/unocss/unocss#custom-rules
