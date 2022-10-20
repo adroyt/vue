@@ -5,7 +5,7 @@
   <div class="transition-400 flex h-full select-none text-center">
     <div class="m-auto">
       <!-- svelte-ignore a11y-missing-content -->
-      <div class="m-2 mb-5 flex h-max items-center justify-center gap-2 text-2xl">
+      <div m="2 b-5" class="flex h-max items-center justify-center gap-2 text-2xl">
         <a
           class="i-logos-unocss transition-200 brightness-200% hover:brightness-150% text-inherit"
           href="https://uno.antfu.me/"
@@ -15,7 +15,9 @@
         <div class="text-2rem op-30">+</div>
         <!-- demarcation end -->
         <a
-          class="i-mdi-vuejs transition-200 op-30 -mb-1.5 -ml-1 text-3xl hover:op-80 text-inherit"
+          class="i-mdi-vuejs transition-200 op-30 hover:op-80"
+          un-text="3xl inherit"
+          m="b--1.5 l--1"
           href="https://vuejs.org"
           target="_blank"
         />

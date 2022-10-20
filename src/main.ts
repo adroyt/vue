@@ -4,9 +4,10 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
-import "./assets/main.css";
-import "@unocss/reset/tailwind.css";
-import "uno.css";
+import "./assets/main.css"; // custom styles
+
+import "@unocss/reset/tailwind.css"; // https://github.com/unocss/unocss#style-resetting
+import "uno.css"; // https://github.com/unocss/unocss/tree/main/packages/vite#installation
 
 const app = createApp(App);
 
